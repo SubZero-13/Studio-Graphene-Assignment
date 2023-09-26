@@ -1,0 +1,73 @@
+.topcontainer {
+  background-color: #1a1a1a;
+}
+.one {
+  width: 75%;
+  margin: auto;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+.two {
+  display: flex;
+  margin-top: 10px;
+}
+.three {
+  display: flex;
+  margin-top: 10px;
+}
+.three > div {
+  color: #626262;
+  margin-right: 20px;
+}
+.four {
+  color: #626262;
+}
+.five {
+  color: #626262;
+  padding-left: 20px;
+  border-left: 2px solid #626262;
+  margin-left: 20px;
+  height: 70%;
+}
+.socialimg {
+  height: 10px;
+}
+
+@media all and (min-width: 431px) and (max-width: 700px) {
+  .one {
+    height: 56px;
+  }
+  .two {
+    margin-right: 7%;
+  }
+  .three {
+    margin-left: 7%;
+  }
+}
+
+@media all and (max-width: 429px) {
+  .one {
+    margin: 0;
+    font-size: 10px;
+    height: 50px;
+    width: 100%;
+  }
+  .two {
+    margin-right: 7%;
+  }
+  .three {
+    margin-left: 7%;
+  }
+
+  .four {
+    font-size: 8px;
+  }
+  .car {
+    height: 13px;
+    width: 21px;
+  }
+}
+
+
+
